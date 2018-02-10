@@ -1,0 +1,262 @@
+*{
+margin:0;
+padding:0;
+text-decoration: none;
+}
+
+body{
+  background-color: #fff;
+}
+#menu {
+  background-image: url(00.png);
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  width:160px;
+
+  position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  z-index: 1000;
+  transition: all ease-in-out 400ms;
+}
+.buttons1{
+height: 73%;
+top:0;
+
+}
+
+
+
+button{
+
+  background-color: #008CBA;
+ border: none;
+ color: #fff;
+ padding: 3px 20px;
+ margin:1px 0px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 18px;
+ width: 150px;
+ border: 2px solid #555555;
+ border-radius: 5px;
+ font-family: sans-serif;
+ font-variant: small-caps;
+}
+button:hover{
+color:#ffff83;
+  background-color: #00CED1;
+  border: 2px solid #5a22ff;
+}
+
+#img01{
+  display:block;
+width:60%;
+margin:0 auto;
+margin-top: 40px;
+
+border: 8px solid #272727;
+border-radius: 50%;
+}
+
+
+nav ul li a{
+  font-family: arial;
+  font-weight: 600;
+  color:#272727;
+text-transform: uppercase;
+}
+#x{
+  width: 30px;
+  height: 30px;
+background-image: url(0.png);
+position: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+top: 0;
+left: 0;
+z-index: 1001;
+cursor: pointer;
+transition: all ease-in-out 200ms;
+
+}
+#x:hover{
+  opacity: 0.7;
+}
+
+
+.box{
+z-index: 0;
+position: fixed;
+background-image: url(000.png);
+
+  width: 100%;
+height: 100%;
+left: 0px;
+top: 0;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+}
+#aboutme{
+  z-index: 100;
+}
+
+
+
+#id02{
+  position: fixed;
+
+
+  height: 70%;
+  right:250px;
+  left:250px;
+  top:150px;
+  font-family: sans-serif;
+}
+.about{
+background-color: #56878C;
+}
+.edu{
+  background-color: #24B199;
+}
+.skill{
+  background-color: #30a566;
+}
+.contact{
+
+  background-color: #89bca9;
+
+
+}
+.game{
+  background-color: #4A5963;
+
+}
+
+.title{
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 20px 40px;
+  padding-bottom:0px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  color:#dee;
+
+
+}
+h3 h5{
+  padding-top: 8px;
+  font-style: italic;
+
+}
+
+.textdiv{
+border:3px dotted #272727;
+margin:40px;
+padding:30px;
+width:50%;
+}
+
+#aboutmeimg{
+  width:30%;
+  float:right;
+  margin-right: 30px;
+  margin-top: 50px;
+
+}
+
+
+#eduimg{
+  width:30%;
+  float:right;
+  margin-right: 30px;
+  margin-top: 30px;
+
+  height: 60%;
+
+
+}
+
+
+
+.left{
+  width:60%;
+  float: left;
+}
+.right{
+  width: 40%;
+  float: right;
+
+}
+.right img{
+  width:90%;
+  margin: 10px 0px;
+}
+#git{
+  height: 30px;
+}
+#fcc{
+  height: 35px;
+}
+#contactdiv{
+border:3px dotted #272727;
+margin:40px;
+padding:30px;
+width:50%;
+height: 30%;
+}
+
+.imgbox{
+background-image:url(101.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width:12%;
+height: 90px ;
+float: left;
+margin-bottom: 10px;
+margin-left: 10px;
+border-color: #fff;
+border: 2px dotted #990;
+
+}
+
+
+.imgsbox{
+margin: 40px 60px;
+
+  }
+  .output{
+
+    align-content:flex-end;
+flex-wrap: wrap;
+ align-content: center
+border:3px dotted #272727;
+margin: auto;
+
+  }
+
+  #scorebtn{
+
+    margin:0px 300px;
+width: 200px;
+
+  }
+  #txtscore {
+      font-family: sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      padding: 20px 40px;
+      padding-bottom:0px;
+      margin-bottom: 0px;
+      margin-top: 20px;
+      margin:0px 50px;
+      color:#008CBA;
+
+    }
